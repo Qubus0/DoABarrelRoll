@@ -8,4 +8,4 @@ A Godot Plugin to make the editor do a barrel roll!
 Hint: Only the world 'barrel' and 'roll' need to be in a comment ;)
 
 Download the code as zip, unzip it, add the plugin Directory to the addon directory in your Godot project and activate it in the editor settings. 
-Let everyone see you're rollin'!
+Let everyone see you rollin'!
