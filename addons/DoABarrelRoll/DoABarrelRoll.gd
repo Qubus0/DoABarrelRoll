@@ -59,6 +59,7 @@ func text_changed(textedit : TextEdit):
 
 	var line = textedit.cursor_get_line()
 	var line_text = textedit.get_line(line)
-	if '#' in line_text and "barrel" in line_text and "roll" in line_text:
+	line_text = line_text.dedent()
+	if line_text.begins_with('#') and "barrel roll" in line_text.to_lower():
 		do_a_barrel_roll()
 
